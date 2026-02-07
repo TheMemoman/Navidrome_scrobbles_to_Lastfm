@@ -28,14 +28,14 @@ in this vein
 
 ## Configure the following variables
 
-| Name                   | Description                                                                                     | Suggested Value                     |
-|------------------------|-------------------------------------------------------------------------------------------------|------------------------------------|
-| `DB_PATH`              | Path to your Navidrome SQLite database                                                          | `/path/to/navidrome.db`            |
-| `API_KEY`              | Your Last.fm API key (see [Last.fm API docs](https://www.last.fm/api/authentication))          | `xxxxxxxxxxxxxxxxxxx`               |
-| `API_SECRET`           | Your Last.fm API secret (see [Last.fm API docs](https://www.last.fm/api/authentication))       | `xxxxxxxxxxxxxxxx`                  |
-| `SESSION_KEY`          | Your Last.fm session key (from authentication)                                                 | `xxxxxxxxx`                         |
-| `START_YEAR`           | Starting year to include scrobbles                                                              | `2015`                              |
-| `END_YEAR`             | Ending year to include scrobbles                                                                | `2026`                              |
+| Name                   | Description                                                                                                     | Suggested Value                     |
+|------------------------|-----------------------------------------------------------------------------------------------------------------|------------------------------------|
+| `DB_PATH`              | Path to your Navidrome SQLite database                                                                          | `/path/to/navidrome.db`            |
+| `API_KEY`              | Your Last.fm API key (see [Last.fm API docs](https://www.last.fm/api/authentication))                           | `xxxxxxxxxxxxxxxxxxx`               |
+| `API_SECRET`           | Your Last.fm API secret (see [Last.fm API docs](https://www.last.fm/api/authentication))                        | `xxxxxxxxxxxxxxxx`                  |
+| `SESSION_KEY`          | Your Last.fm session key (see [this other script for it](https://github.com/TheMemoman/lastfm_Get_Session_Key)) | `xxxxxxxxx`                         |
+| `START_YEAR`           | Starting year to include scrobbles                                                                              | `2015`                              |
+| `END_YEAR`             | Ending year to include scrobbles                                                                                | `2026`                              |
 
 ## Execute the script
 
